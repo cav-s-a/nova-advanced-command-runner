@@ -104,7 +104,7 @@
 
         <div class="flex justify-between mt-6 mb-6">
             <heading class="">History</heading>
-            <button type="button" class="items-right btn btn-default btn-danger boton_clear_history" @click="clearHistory">Clear History</button>
+            <button type="button" class="items-right btn btn-default btn-danger boton_clear_history">Clear History</button>
         </div>
 
         <card class="mb-6 max-w-full overflow-x-auto">
@@ -164,7 +164,7 @@
             this.getData();
         },
         methods: {
-
+            /*
             clearHistory(){
                 this.openModal( {
                     label : 'Clear Command Run History',
@@ -175,7 +175,7 @@
                     variables : [],
                     flags : []
                 } );
-            },
+            },*/
 
             runCustomCommand(){
                 if(!this.customCommand.command){
