@@ -101,13 +101,13 @@
 
         </card>
 
-        <div class="flex justify-between mt-6 mb-6 d-none" style="display: none">
+        <div class="flex justify-between mt-6 mb-6 d-none">
             <heading class="">Historial</heading>
-            <button type="button" class="items-right btn btn-default btn-danger boton_clear_history">Limpiar Historial</button>
+            <button type="button" class="items-right btn btn-default btn-danger boton_clear_history d-none" style="display: none">Limpiar Historial</button>
         </div>
 
         <card class="mb-6 max-w-full overflow-x-auto">
-            <table class="table w-full">
+            <table class="table w-full table-history">
                 <thead>
                 <tr>
                     <th scope="col">Comando</th>
@@ -163,7 +163,7 @@
             this.getData();
         },
         methods: {
-            /*
+
             clearHistory(){
                 this.openModal( {
                     label : 'Clear Command Run History',
@@ -174,7 +174,7 @@
                     variables : [],
                     flags : []
                 } );
-            },*/
+            },
 
             runCustomCommand(){
                 if(!this.customCommand.command){
@@ -484,5 +484,8 @@
     }
     .boton_clear_history{
         display: none;
+    }
+    .table-history th{
+      text-align: left;
     }
 </style>
