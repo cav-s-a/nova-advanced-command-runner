@@ -103,7 +103,7 @@
 
         <div class="flex justify-between mt-6 mb-6 d-none">
             <heading class="">Historial</heading>
-            <button type="button" class="items-right btn btn-default btn-danger boton_clear_history d-none" style="display: none">Limpiar Historial</button>
+            <button type="button" class="items-right btn btn-default btn-danger d-none" @click="clearHistory" >Limpiar Historial</button>
         </div>
 
         <card class="mb-6 max-w-full overflow-x-auto">
@@ -481,9 +481,6 @@
     .badge-pending{
         color:#212529;
         background-color:#ffc107
-    }
-    .boton_clear_history{
-        display: none;
     }
     .table-history th{
       text-align: left;
