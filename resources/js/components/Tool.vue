@@ -101,22 +101,22 @@
 
         </card>
 
-        <div class="flex justify-between mt-6 mb-6">
-            <heading class="">History</heading>
-            <button type="button" class="items-right btn btn-default btn-danger boton_clear_history">Clear History</button>
+        <div class="flex justify-between mt-6 mb-6 d-none" style="display: none">
+            <heading class="">Historial</heading>
+            <button type="button" class="items-right btn btn-default btn-danger boton_clear_history">Limpiar Historial</button>
         </div>
 
         <card class="mb-6 max-w-full overflow-x-auto">
             <table class="table w-full">
                 <thead>
                 <tr>
-                    <th scope="col">Command</th>
-                    <th scope="col">Type</th>
-                    <th scope="col">Ran By</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Result</th>
-                    <th scope="col">Duration</th>
-                    <th scope="col" class="table-fit">Happened</th>
+                    <th scope="col">Comando</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Ejecutado por</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Resultado</th>
+                    <th scope="col">Duracion</th>
+                    <th scope="col" class="table-fit">Desde hace</th>
                 </tr>
                 </thead>
                 <tbody>
