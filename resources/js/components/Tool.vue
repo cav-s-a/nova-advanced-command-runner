@@ -103,7 +103,7 @@
 
         <div class="flex justify-between mt-6 mb-6 d-none">
             <heading class="">Historial</heading>
-            <button type="button" class="items-right btn btn-default btn-danger d-none" @click="clearHistory" >Limpiar Historial</button>
+            <button type="button" style="display: none" class="items-right btn btn-default btn-danger d-none" @click="clearHistory" >Limpiar Historial</button>
         </div>
 
         <card class="mb-6 max-w-full overflow-x-auto">
